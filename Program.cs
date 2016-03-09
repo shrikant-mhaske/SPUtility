@@ -15,7 +15,7 @@ namespace RawData
         static void Main()
         {
             RawDataBusinessLogic objRawDataBusinessLogic = new RawDataBusinessLogic();
-            //Comment
+            
             //get cust list
             DataTable custdt = objRawDataBusinessLogic.getCusomerlist();
             //get query list
